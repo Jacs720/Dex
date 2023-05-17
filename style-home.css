@@ -256,11 +256,15 @@ a {
   padding: 10px;
 }
 
+.pokemon-id {
+font-family: 'Poppins', sans-serif;
+}
+
 .card-title {
   font-size: 24px;
   margin: 0;
   text-align: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Saira', sans-serif;
   padding: 10px;
 }
 
@@ -269,7 +273,7 @@ a {
   margin: 10px;
   text-align: center;
   box-sizing: 5px;
-  font-family: sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
