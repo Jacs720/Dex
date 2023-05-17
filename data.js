@@ -530,7 +530,19 @@ document.addEventListener("DOMContentLoaded", function () {
     }, {
       id: 65,
       name: "Alakazam",
-      types: ["Psychic"]
+      types: ["Psychic"],
+      forms: [
+      {
+          name: "Alakazam",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/065.png",
+          types: ["Psychic"],
+        },
+          {
+          name: "Mega Alakazam",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/065.png",
+          types: ["Psychic"],
+        }, 
+      ],
     }, {
       id: 66,
       name: "Machop",
@@ -682,8 +694,13 @@ document.addEventListener("DOMContentLoaded", function () {
           types: ["Water", "Psychic"],
         },
         {
-          name: "Galarian Slowbro",
+          name: "Mega Slowbro",
           image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/080_f2.png",
+          types: ["Water", "Psychic"],
+        },
+        {
+          name: "Galarian Slowbro",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/080_f3.png",
           types: ["Poison", "Psychic"],
         },
       ],
