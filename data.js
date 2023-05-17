@@ -1295,7 +1295,19 @@ document.addEventListener("DOMContentLoaded", function () {
     }, {
       id: 157,
       name: "Typhlosion",
-      types: ["Fire"]
+      types: ["Fire"],
+      forms: [
+        {
+          name: "Typhlosion",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/157.png",
+          types: ["Fire"],
+        },
+        {
+          name: "Hisuian Typhlosion",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/157_f2.png",
+          types: ["Fire", "Ghost"],
+        },
+      ],
     }, {
       id: 158,
       name: "Totodile",
@@ -1391,7 +1403,19 @@ document.addEventListener("DOMContentLoaded", function () {
     }, {
       id: 181,
       name: "Ampharos",
-      types: ["Electric"]
+      types: ["Electric"],
+      forms: [
+        {
+          name: "Ampharos",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/181.png",
+          types: ["Electric"],
+        },
+        {
+          name: "Mega Ampharos",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/181_f2.png",
+          types: ["Electric", "Dragon"],
+        },
+      ],
     }, {
       id: 182,
       name: "Bellossom",
@@ -1443,7 +1467,19 @@ document.addEventListener("DOMContentLoaded", function () {
     }, {
       id: 194,
       name: "Wooper",
-      types: ["Water", "Ground"]
+      types: ["Water", "Ground"],
+      forms: [
+        {
+          name: "Wooper",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/194.png",
+          types: ["Water", "Ground"],
+        },
+        {
+          name: "Paldean Wooper",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/194_f2.png",
+          types: ["Poison", "Ground"],
+        },
+        ],
     }, {
       id: 195,
       name: "Quagsire",
@@ -1463,7 +1499,20 @@ document.addEventListener("DOMContentLoaded", function () {
     }, {
       id: 199,
       name: "Slowking",
-      types: ["Water", "Psychic"]
+      types: ["Water", "Psychic"],
+      forms: [
+        {
+          name: "Slowking",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/199.png",
+          types: ["Water", "Psychic"],
+        },
+        {
+          name: "Galarian Slowking",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/194_f2.png",
+          types: ["Poison", "Psychic"],
+        },
+        ],
+    },
     }, {
       id: 200,
       name: "Misdreavus",
@@ -1499,7 +1548,20 @@ document.addEventListener("DOMContentLoaded", function () {
     }, {
       id: 208,
       name: "Steelix",
-      types: ["Steel", "Ground"]
+      types: ["Steel", "Ground"],
+      forms: [
+        {
+          name: "Steelix",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/208.png",
+          types: ["Steel", "Ground"],
+        },
+        {
+          name: "Mega Steelix",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/208_f2.png",
+          types: ["Steel", "Ground"],
+        },
+        ],
+    },
     }, {
       id: 209,
       name: "Snubbull",
@@ -1511,11 +1573,37 @@ document.addEventListener("DOMContentLoaded", function () {
     }, {
       id: 211,
       name: "Qwilfish",
-      types: ["Water", "Poison"]
+      types: ["Water", "Poison"],
+      forms: [
+        {
+          name: "Qwilfish",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/211.png",
+          types: ["Water", "Poison"],
+        },
+        {
+          name: "Hisuian Qwilfish",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/211_f2.png",
+          types: ["Dark", "Poison"],
+        },
+        ],
+    },
     }, {
       id: 212,
       name: "Scizor",
-      types: ["Bug", "Steel"]
+      types: ["Bug", "Steel"],
+      forms: [
+        {
+          name: "Scizor",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/212.png",
+          types: ["Bug", "Steel"],
+        },
+        {
+          name: "Mega Scizor",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/212_f2.png",
+          types: ["Bug", "Steel"],
+        },
+        ],
+    },
     }, {
       id: 213,
       name: "Shuckle",
@@ -1523,11 +1611,35 @@ document.addEventListener("DOMContentLoaded", function () {
     }, {
       id: 214,
       name: "Heracross",
-      types: ["Bug", "Fighting"]
+      types: ["Bug", "Fighting"],
+      forms: [
+        {
+          name: "Heracross",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/214.png",
+          types: ["Bug", "Fighting"],
+        },
+        {
+          name: "Mega Heracross",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/214_f2.png",
+          types: ["Bug", "Fighting"],
+        },
+        ],
     }, {
       id: 215,
       name: "Sneasel",
-      types: ["Dark", "Ice"]
+      types: ["Dark", "Ice"],
+      forms: [
+        {
+          name: "Sneasel",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/215.png",
+          types: ["Dark", "Ice"],
+        },
+        {
+          name: "Hisuian Sneasel",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/212_f2.png",
+          types: ["Poison", "Fighting"],
+        },
+        ],
     }, {
       id: 216,
       name: "Teddiursa",
@@ -1555,7 +1667,19 @@ document.addEventListener("DOMContentLoaded", function () {
     }, {
       id: 222,
       name: "Corsola",
-      types: ["Water", "Rock"]
+      types: ["Water", "Rock"],
+      forms: [
+        {
+          name: "Corsola",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/222.png",
+          types: ["Water", "Rock"],
+        },
+        {
+          name: "Galarian Corsola",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/222_f2.png",
+          types: ["Ghost"],
+        },
+        ],
     }, {
       id: 223,
       name: "Remoraid",
@@ -1583,7 +1707,19 @@ document.addEventListener("DOMContentLoaded", function () {
     }, {
       id: 229,
       name: "Houndoom",
-      types: ["Dark", "Fire"]
+      types: ["Dark", "Fire"],
+      forms: [
+        {
+          name: "Houndoom",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/229.png",
+          types: ["Dark", "Fire"],
+        },
+        {
+          name: "Mega Houndoom",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/229_f2.png",
+          types: ["Dark", "Fire"],
+        },
+        ],
     }, {
       id: 230,
       name: "Kingdra",
@@ -1659,7 +1795,19 @@ document.addEventListener("DOMContentLoaded", function () {
     }, {
       id: 248,
       name: "Tyranitar",
-      types: ["Rock", "Dark"]
+      types: ["Rock", "Dark"],
+      forms: [
+        {
+          name: "Tyranitar",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/248.png",
+          types: ["Rock", "Dark"],
+        },
+        {
+          name: "Mega Tyranitar",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/248_f2.png",
+          types: ["Rock", "Dark"],
+        },
+        ],
     }, {
       id: 249,
       name: "Lugia",
@@ -1683,7 +1831,19 @@ document.addEventListener("DOMContentLoaded", function () {
     }, {
       id: 254,
       name: "Sceptile",
-      types: ["Grass"]
+      types: ["Grass"],
+      forms: [
+        {
+          name: "Sceptile",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/254.png",
+          types: ["Grass"],
+        },
+        {
+          name: "Mega Sceptile",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/254_f2.png",
+          types: ["Grass", "Dragon"],
+        },
+        ],
     }, {
       id: 255,
       name: "Torchic",
@@ -1695,7 +1855,19 @@ document.addEventListener("DOMContentLoaded", function () {
     }, {
       id: 257,
       name: "Blaziken",
-      types: ["Fire", "Fighting"]
+      types: ["Fire", "Fighting"],
+      forms: [
+        {
+          name: "Blaziken",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/257.png",
+          types: ["Fire", "Fighting"],
+        },
+        {
+          name: "Mega Blaziken",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/257_f2.png",
+          types: ["Fire", "Fighting"],
+        },
+        ],
     }, {
       id: 258,
       name: "Mudkip",
@@ -1707,7 +1879,19 @@ document.addEventListener("DOMContentLoaded", function () {
     }, {
       id: 260,
       name: "Swampert",
-      types: ["Water", "Ground"]
+      types: ["Water", "Ground"],
+      forms: [
+        {
+          name: "Swampert",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/260.png",
+          types: ["Water", "Ground"],
+        },
+        {
+          name: "Mega Swampert",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/260_f2.png",
+          types: ["Water", "Ground"],
+        },
+        ],
     }, {
       id: 261,
       name: "Poochyena",
@@ -1795,7 +1979,19 @@ document.addEventListener("DOMContentLoaded", function () {
     }, {
       id: 282,
       name: "Gardevoir",
-      types: ["Psychic", "Fairy"]
+      types: ["Psychic", "Fairy"],
+      forms: [
+        {
+          name: "Gardevoir",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/282.png",
+          types: ["Psychic", "Fairy"],
+        },
+        {
+          name: "Mega Gardevoir",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/282_f2.png",
+          types: ["Psychic", "Fairy"],
+        },
+        ],
     }, {
       id: 283,
       name: "Surskit",
@@ -1875,11 +2071,35 @@ document.addEventListener("DOMContentLoaded", function () {
     }, {
       id: 302,
       name: "Sableye",
-      types: ["Dark", "Ghost"]
+      types: ["Dark", "Ghost"],
+      forms: [
+        {
+          name: "Sableye",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/302.png",
+          types: ["Dark", "Ghost"],
+        },
+        {
+          name: "Mega Sableye",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/302_f2.png",
+          types: ["Dark", "Ghost"],
+        },
+        ],
     }, {
       id: 303,
       name: "Mawile",
-      types: ["Steel", "Fairy"]
+      types: ["Steel", "Fairy"],
+      forms: [
+        {
+          name: "Mawile",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/303.png",
+          types: ["Steel", "Fairy"],
+        },
+        {
+          name: "Mega Mawile",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/303_f2.png",
+          types: ["Steel", "Fairy"],
+        },
+        ],
     }, {
       id: 304,
       name: "Aron",
@@ -1891,7 +2111,19 @@ document.addEventListener("DOMContentLoaded", function () {
     }, {
       id: 306,
       name: "Aggron",
-      types: ["Steel", "Rock"]
+      types: ["Steel", "Rock"],
+      forms: [
+        {
+          name: "Aggron",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/306.png",
+          types: ["Steel", "Rock"],
+        },
+        {
+          name: "Mega Aggron",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/306_f2.png",
+          types: ["Steel"],
+        },
+        ],
     }, {
       id: 307,
       name: "Meditite",
@@ -1899,7 +2131,19 @@ document.addEventListener("DOMContentLoaded", function () {
     }, {
       id: 308,
       name: "Medicham",
-      types: ["Fighting", "Psychic"]
+      types: ["Fighting", "Psychic"],
+      forms: [
+        {
+          name: "Medicham",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/308.png",
+          types: ["Fighting", "Psychic"],
+        },
+        {
+          name: "Mega Medicham",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/282_f2.png",
+          types: ["Fighting", "Psychic"],
+        },
+        ],
     }, {
       id: 309,
       name: "Electrike",
@@ -1911,14 +2155,15 @@ document.addEventListener("DOMContentLoaded", function () {
     }, {
       id: 311,
       name: "Plusle",
-      types: ["Electric"]
-    }, {
+      types: ["Electric"],
+    }, 
+      {
       id: 312,
-      name: "Minun",
+        name: "Minun",
       types: ["Electric"]
     }, {
       id: 313,
-      name: "Volbeat",
+    name: "Volbeat",
       types: ["Bug"]
     }, {
       id: 314,
