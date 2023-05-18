@@ -1510,7 +1510,6 @@
           types: ["Poison", "Psychic"],
         },
         ],
-    },
     }, {
       id: 200,
       name: "Misdreavus",
@@ -1560,7 +1559,7 @@
         },
         ],
     },
-    }, {
+    {
       id: 209,
       name: "Snubbull",
       types: ["Fairy"]
@@ -1585,7 +1584,7 @@
         },
         ],
     },
-    }, {
+    {
       id: 212,
       name: "Scizor",
       types: ["Bug", "Steel"],
@@ -1601,7 +1600,6 @@
           types: ["Bug", "Steel"],
         },
         ],
-    },
     }, {
       id: 213,
       name: "Shuckle",
