@@ -1,3 +1,6 @@
+import { pokemons } from './data.js';
+import {typeImages} from './data.js';
+
 document.addEventListener("DOMContentLoaded", function () {
 	 const container = document.querySelector("#container");
   pokemons.forEach(pokemon => {
