@@ -5048,4 +5048,6 @@
     Fairy: "https://archives.bulbagarden.net/media/upload/a/a9/Fairy_icon_SV.png",
   };
 
+export { pokemons };
+export {typeImages};
 
