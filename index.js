@@ -1,3 +1,25 @@
+document.addEventListener("DOMContentLoaded", function () {
+	 const container = document.querySelector("#container");
+  pokemons.forEach(pokemon => {
+    const card = document.createElement("a");
+    card.href = "pokemon.html";
+    card.classList.add("card");
+
+    const cardImg = document.createElement("div");
+    cardImg.classList.add("card-img");
+
+    const img = document.createElement("img");
+    img.src = `https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${pokemon.id.toString().padStart(3, '0')}.png`;
+    img.alt = `pokemon ${pokemon.name}`;
+
+    cardImg.appendChild(img);
+
+    const cardInfo = document.createElement("div");
+    cardInfo.classList.add("card-info");
+
+    const pokemonId = document.createElement("span");
+    pokemonId.classList.add("pokemon-id");
+    pokemonId.textContent = `#${pokemon.id.toString().padStart(3, '0')}`;
 
     const pokemonName = document.createElement("h3");
     pokemonName.textContent = pokemon.name;
