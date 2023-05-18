@@ -2160,7 +2160,7 @@
         },
         {
           name: "Mega Medicham",
-          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/282_f2.png",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/308_f2.png",
           types: ["Fighting", "Psychic"],
         },
         ],
@@ -2171,7 +2171,19 @@
     }, {
       id: 310,
       name: "Manectric",
-      types: ["Electric"]
+      types: ["Electric"],
+      forms: [
+      {
+          name: "Manectric",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/310.png",
+          types: ["Electric"],
+        },
+        {
+          name: "Mega Manectric",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/310_f2.png",
+          types: ["Electric"],
+        },
+        ],
     }, {
       id: 311,
       name: "Plusle",
@@ -2416,7 +2428,19 @@
     }, {
       id: 359,
       name: "Absol",
-      types: ["Dark"]
+      types: ["Dark"],
+      forms: [
+      {
+          name: "Absol",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/359.png",
+          types: ["Dark"],
+        },
+        {
+          name: "Mega Absol",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/359_f2.png",
+          types: ["Dark"],
+        },
+        ],
     }, {
       id: 360,
       name: "Wynaut",
@@ -2428,7 +2452,19 @@
     }, {
       id: 362,
       name: "Glalie",
-      types: ["Ice"]
+      types: ["Ice"],
+      forms: [
+      {
+          name: "Glalie",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/362.png",
+          types: ["Ice"],
+        },
+        {
+          name: "Mega Glalie",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/362_f2.png",
+          types: ["Ice"],
+        },
+        ],
     }, {
       id: 363,
       name: "Spheal",
@@ -2472,7 +2508,19 @@
     }, {
       id: 373,
       name: "Salamence",
-      types: ["Dragon", "Flying"]
+      types: ["Dragon", "Flying"],
+      forms: [
+      {
+          name: "Salamence",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/373.png",
+          types: ["Dragon", "Flying"],
+        },
+        {
+          name: "Mega Salamence",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/373_f2.png",
+          types: ["Dragon", "Flying"],
+        },
+        ],
     }, {
       id: 374,
       name: "Beldum",
@@ -2484,7 +2532,19 @@
     }, {
       id: 376,
       name: "Metagross",
-      types: ["Steel", "Psychic"]
+      types: ["Steel", "Psychic"],
+      forms: [
+      {
+          name: "Metagross",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/376.png",
+          types: ["Steel", "Psychic"],
+        },
+        {
+          name: "Mega Metagross",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/376_f2.png",
+          types: ["Steel", "Psychic"],
+        },
+        ],
     }, {
       id: 377,
       name: "Regirock",
@@ -2500,23 +2560,83 @@
     }, {
       id: 380,
       name: "Latias",
-      types: ["Dragon", "Psychic"]
+      types: ["Dragon", "Psychic"],
+      forms: [
+      {
+          name: "Latias",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/380.png",
+          types: ["Dragon", "Psychic"],
+        },
+        {
+          name: "Mega Latias",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/380_f2.png",
+          types: ["Dragon", "Psychic"],
+        },
+        ],
     }, {
       id: 381,
       name: "Latios",
-      types: ["Dragon", "Psychic"]
+      types: ["Dragon", "Psychic"],
+      forms: [
+      {
+          name: "Latios",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/381.png",
+          types: ["Dragon", "Psychic"],
+        },
+        {
+          name: "Mega Latios",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/381_f2.png",
+          types: ["Dragon", "Psychic"],
+        },
+        ],
     }, {
       id: 382,
       name: "Kyogre",
-      types: ["Water"]
+      types: ["Water"],
+      forms: [
+      {
+          name: "Kyogre",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/382.png",
+          types: ["Water"],
+        },
+        {
+          name: "Primal Kyogre",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/382_f2.png",
+          types: ["Water"],
+        },
+        ],
     }, {
       id: 383,
       name: "Groudon",
-      types: ["Ground"]
+      types: ["Ground"],
+      forms: [
+      {
+          name: "Groudon",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/382.png",
+          types: ["Ground"],
+        },
+        {
+          name: "Primal Groudon",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/383_f2.png",
+          types: ["Ground", "Fire"],
+        },
+        ],
     }, {
       id: 384,
       name: "Rayquaza",
-      types: ["Dragon", "Flying"]
+      types: ["Dragon", "Flying"],
+      forms: [
+      {
+          name: "Rayquaza",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/384.png",
+          types: ["Dragon", "Flying"],
+        },
+        {
+          name: "Mega Rayquaza",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/384_f2.png",
+          types: ["Dragon", "Flying"],
+        },
+        ],
     }, {
       id: 385,
       name: "Jirachi",
@@ -2524,7 +2644,29 @@
     }, {
       id: 386,
       name: "Deoxys",
-      types: ["Psychic"]
+      types: ["Psychic"],
+      forms: [
+      {
+          name: "Deoxys (Normal Form)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/386.png",
+          types: ["Psychic"],
+        },
+        {
+          name: "Deoxys (Attack Form)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/386_f2.png",
+          types: ["Psychic"],
+        },
+      {
+          name: "Deoxys (Defense Form)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/386_f3.png",
+          types: ["Psychic"],
+        },
+        {
+          name: "Deoxys (Speed Form)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/386_f4.png",
+          types: ["Psychic"],
+        },
+        ],
     }, {
       id: 387,
       name: "Turtwig",
@@ -2632,7 +2774,24 @@
     }, {
       id: 413,
       name: "Wormadam",
-      types: ["Bug", "Grass"]
+      types: ["Bug", "Grass"],
+       forms: [
+      {
+          name: "Wormadam (Plant Cloak)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/413.png",
+          types: ["Bug", "Grass"],
+        },
+        {
+          name: "Wormadam (Sandy Cloak)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/413_f2.png",
+          types: ["Bug", "Ground"],
+        },
+          {
+          name: "Wormadam (Thrash Cloak)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/413_f3.png",
+          types: ["Bug", "Steel"],
+        },
+        ],
     }, {
       id: 414,
       name: "Mothim",
@@ -2664,15 +2823,51 @@
     }, {
       id: 421,
       name: "Cherrim",
-      types: ["Grass"]
+      types: ["Grass"],
+      forms: [
+      {
+          name: "Cherrim (Overcast Form)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/421.png",
+          types: ["Grass"],
+        },
+        {
+          name: "Cherrim (Sunshine Form)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/421_f2.png",
+          types: ["Grass"],
+        },
+        ],
     }, {
       id: 422,
       name: "Shellos",
-      types: ["Water"]
+      types: ["Water"],
+      forms: [
+      {
+          name: "Shellos (West Sea)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/422.png",
+          types: ["Water"],
+        },
+        {
+          name: "Shellos (East Sea)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/422_f2.png",
+          types: ["Water"],
+        },
+        ],
     }, {
       id: 423,
       name: "Gastrodon",
-      types: ["Water", "Ground"]
+      types: ["Water", "Ground"],
+      forms: [
+      {
+          name: "Gastrodon (West Sea)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/423.png",
+          types: ["Water", "Ground"],
+        },
+        {
+          name: "Gastrodon (East Sea)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/423_f2.png",
+          types: ["Water", "Ground"],
+        },
+        ],
     }, {
       id: 424,
       name: "Ambipom",
@@ -2692,7 +2887,19 @@
     }, {
       id: 428,
       name: "Lopunny",
-      types: ["Normal"]
+      types: ["Normal"],
+      forms: [
+      {
+          name: "Lopunny",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/428.png",
+          types: ["Normal"],
+        },
+        {
+          name: "Mega Lopunny",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/428_f2.png",
+          types: ["Normal", "Fighting"],
+        },
+        ],
     }, {
       id: 429,
       name: "Mismagius",
@@ -2760,7 +2967,19 @@
     }, {
       id: 445,
       name: "Garchomp",
-      types: ["Dragon", "Ground"]
+      types: ["Dragon", "Ground"],
+      forms: [
+      {
+          name: "Garchomp",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/445.png",
+          types: ["Dragon", "Ground"],
+        },
+        {
+          name: "Mega Garchomp",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/445_f2.png",
+          types: ["Dragon", "Ground"],
+        },
+        ],
     }, {
       id: 446,
       name: "Munchlax",
@@ -2772,7 +2991,19 @@
     }, {
       id: 448,
       name: "Lucario",
-      types: ["Fighting", "Steel"]
+      types: ["Fighting", "Steel"],
+      forms: [
+      {
+          name: "Lucario",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/448.png",
+          types: ["Fighting", "Steel"],
+        },
+        {
+          name: "Mega Lucario",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/448_f2.png",
+          types: ["Fighting", "Steel"],
+        },
+        ],
     }, {
       id: 449,
       name: "Hippopotas",
@@ -2820,7 +3051,19 @@
     }, {
       id: 460,
       name: "Abomasnow",
-      types: ["Grass", "Ice"]
+      types: ["Grass", "Ice"],
+      forms: [
+      {
+          name: "Abomasnow",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/460.png",
+          types: ["Grass", "Ice"],
+        },
+        {
+          name: "Mega Abomasnow",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/460_f2.png",
+          types: ["Grass", "Ice"],
+        },
+        ],
     }, {
       id: 461,
       name: "Weavile",
@@ -2880,7 +3123,19 @@
     }, {
       id: 475,
       name: "Gallade",
-      types: ["Psychic", "Fighting"]
+      types: ["Psychic", "Fighting"],
+      forms: [
+      {
+          name: "Gallade",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/475.png",
+          types: ["Psychic", "Fighting"],
+        },
+        {
+          name: "Mega Gallade",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/475_f2.png",
+          types: ["Psychic", "Fighting"],
+        },
+        ],
     }, {
       id: 476,
       name: "Probopass",
@@ -2896,7 +3151,39 @@
     }, {
       id: 479,
       name: "Rotom",
-      types: ["Electric", "Ghost"]
+      types: ["Electric", "Ghost"],
+      forms: [
+      {
+          name: "Rotom",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/479.png",
+          types: ["Electric", "Ghost"],
+        },
+        {
+          name: "Heat Rotom",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/479_f2.png",
+          types: ["Electric", "Fire"],
+        },
+        {
+          name: "Wash Rotom",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/479_f3.png",
+          types: ["Electric", "Water"],
+        },
+        {
+          name: "Frost Rotom",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/479_f4.png",
+          types: ["Electric", "Ice"],
+        },
+        {
+          name: "Fan Rotom",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/479_f5.png",
+          types: ["Electric", "Flying"],
+        },
+        {
+          name: "Mow Rotom",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/479_f6.png",
+          types: ["Electric", "Grass"],
+        },
+        ],
     }, {
       id: 480,
       name: "Uxie",
@@ -2912,11 +3199,35 @@
     }, {
       id: 483,
       name: "Dialga",
-      types: ["Steel", "Dragon"]
+      types: ["Steel", "Dragon"],
+      forms: [
+      {
+          name: "Dialga",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/483.png",
+          types: ["Steel", "Dragon"],
+        },
+        {
+          name: "Dialga (Origin Form)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/483_f2.png",
+          types: ["Steel", "Dragon"],
+        },
+        ],
     }, {
       id: 484,
       name: "Palkia",
-      types: ["Water", "Dragon"]
+      types: ["Water", "Dragon"],
+      forms: [
+      {
+          name: "Dialga",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/484.png",
+          types: ["Water", "Dragon"],
+        },
+        {
+          name: "Palkia (Origin Form)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/484_f2.png",
+          types: ["Water", "Dragon"],
+        },
+        ],
     }, {
       id: 485,
       name: "Heatran",
@@ -2928,7 +3239,19 @@
     }, {
       id: 487,
       name: "Giratina",
-      types: ["Ghost", "Dragon"]
+      types: ["Ghost", "Dragon"],
+      forms: [
+      {
+          name: "Giratina (Altered Form)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/487.png",
+          types: ["Ghost", "Dragon"],
+        },
+        {
+          name: "Giratina (Origin Form)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/487_f2.png",
+          types: ["Ghost", "Dragon"],
+        },
+        ],
     }, {
       id: 488,
       name: "Cresselia",
@@ -2948,7 +3271,19 @@
     }, {
       id: 492,
       name: "Shaymin",
-      types: ["Grass"]
+      types: ["Grass"],
+      forms: [
+      {
+          name: "Shaymin (Land Form)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/492.png",
+          types: ["Grass"],
+        },
+        {
+          name: "Shaymin (Sky Form)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/492_f2.png",
+          types: ["Grass", "Flying"],
+        },
+        ],
     }, {
       id: 493,
       name: "Arceus",
