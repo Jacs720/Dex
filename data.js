@@ -1903,11 +1903,35 @@ document.addEventListener("DOMContentLoaded", function () {
     }, {
       id: 263,
       name: "Zigzagoon",
-      types: ["Normal"]
+      types: ["Normal"],
+      forms: [
+      {
+          name: "Zigzagoon",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/263.png",
+          types: ["Normal"],
+        },
+        {
+          name: "Galarian Zigzagoon",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/263_f2.png",
+          types: ["Dark", "Normal"],
+        },
+        ],
     }, {
       id: 264,
       name: "Linoone",
-      types: ["Normal"]
+      types: ["Normal"],
+      forms: [
+        {
+          name: "Linoone",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/264.png",
+          types: ["Normal"],
+        },
+        {
+          name: "Galarian Linoone",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/264_f2.png",
+          types: ["Dark", "Normal"],
+        },
+        ],
     }, {
       id: 265,
       name: "Wurmple",
@@ -2188,7 +2212,19 @@ document.addEventListener("DOMContentLoaded", function () {
     }, {
       id: 319,
       name: "Sharpedo",
-      types: ["Water", "Dark"]
+      types: ["Water", "Dark"],
+      forms: [
+      {
+          name: "Sharpedo",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/319.png",
+          types: ["Water", "Dark"],
+        },
+        {
+          name: "Mega Sharpedo",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/319_f2.png",
+          types: ["Water", "Dark"],
+        },
+        ],
     }, {
       id: 320,
       name: "Wailmer",
@@ -2204,7 +2240,19 @@ document.addEventListener("DOMContentLoaded", function () {
     }, {
       id: 323,
       name: "Camerupt",
-      types: ["Fire", "Ground"]
+      types: ["Fire", "Ground"],
+      forms: [
+      {
+          name: "Camerupt",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/323.png",
+          types: ["Fire", "Ground"],
+        },
+        {
+          name: "Mega Camerupt",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/323_f2.png",
+          types: ["Fire", "Ground"],
+        },
+        ],
     }, {
       id: 324,
       name: "Torkoal",
@@ -2248,7 +2296,19 @@ document.addEventListener("DOMContentLoaded", function () {
     }, {
       id: 334,
       name: "Altaria",
-      types: ["Dragon", "Flying"]
+      types: ["Dragon", "Flying"],
+      forms: [
+      {
+          name: "Altaria",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/334.png",
+          types: ["Dragon", "Flying"],
+        },
+        {
+          name: "Mega Altaria",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/334_f2.png",
+          types: ["Dragon", "Fairy"],
+        },
+        ],
     }, {
       id: 335,
       name: "Zangoose",
@@ -2328,7 +2388,19 @@ document.addEventListener("DOMContentLoaded", function () {
     }, {
       id: 354,
       name: "Banette",
-      types: ["Ghost"]
+      types: ["Ghost"],
+      forms: [
+      {
+          name: "Banette",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/354.png",
+          types: ["Ghost"],
+        },
+        {
+          name: "Mega Banette",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/354_f2.png",
+          types: ["Ghost"],
+        },
+        ],
     }, {
       id: 355,
       name: "Duskull",
