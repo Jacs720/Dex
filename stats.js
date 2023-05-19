@@ -1,4 +1,4 @@
-export const stats = 
+const stats = 
 [
   {
     id: 1,
@@ -14045,7 +14045,7 @@ atk: 45,
     avg: 98.33
   }
 ]
-
+export { stats };
 
 
 
