@@ -5,28 +5,22 @@
   <style>
     .radar-chart {
       display: block;
-      width: 500px;
-      height: 500px;
+      width: 200px;
+      height: 200px;
     }
   </style>
 </head>
 <body>
   <canvas id="radar-chart" class="radar-chart"></canvas>
-
+  <script src="stats.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script>
-    const pokemon = {
-      id: 1,
-      name: 'Bulbasaur',
-      hp: 45,
-      atk: 49,
-      def: 49,
-      spAtk: 65,
-      spDef: 65,
-      spd: 45,
-      total: 318,
-      avg: 53
-    };
+    // Extract Pokémon ID from URL
+const urlParams = new URLSearchParams(window.location.search);
+const pokemonId = parseInt(urlParams.get('pokemonId'));
+
+// Retrieve Pokémon data using its ID
+const pokemon = pokemons.find(pokemon => pokemon.id === pokemonId);
 
     const data = {
       labels: ['HP', 'Attack', 'Defense', 'Sp. Attack', 'Sp. Defense', 'Speed'],
