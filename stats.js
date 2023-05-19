@@ -13019,7 +13019,7 @@ atk: 45,
     hp: 57,
     atk: 80,
     def: 115,
-    spAtk: 50m,
+    spAtk: 50,
     spDef: 80,
     spd: 95,
     total: 477,
@@ -13202,7 +13202,7 @@ atk: 45,
     spAtk: 40,
     spDef: 51,
     spd: 51,
-    total: m340,
+    total: 340,
     avg: 56.67
   },
   {
@@ -13672,8 +13672,6 @@ atk: 45,
     total: 430,
     avg: 71.67
   },
-  node /tmp/ZedqgRAZ1O.js
-[
   {
     id: 981,
     name: 'Farigiraf',
