@@ -1,4 +1,4 @@
-const stats = 
+export const stats = 
 [
   {
     id: 1,
