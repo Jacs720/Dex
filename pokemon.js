@@ -1,3 +1,7 @@
+import { pokemons } from './data.js';
+import {typeImages} from './data.js';
+import { stats } from './stats.js';
+
 console.log(pokemons);
 // Agrega un evento de clic a los elementos que representan a los Pokémon
 document.querySelectorAll(".pokemon").forEach(pokemonElement => {
