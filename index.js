@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	 const container = document.querySelector("#container");
   pokemons.forEach(pokemon => {
     const card = document.createElement("a");
-    card.href = "pokemon.html";
+    card.href = `pokemon.html?pokemonId=${pokemon.id}`; // Pass Pokémon ID as query parameter
     card.classList.add("card");
 
     const cardImg = document.createElement("div");
