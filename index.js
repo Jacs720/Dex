@@ -104,13 +104,7 @@ document.addEventListener("DOMContentLoaded", function () {
         pokemonName.innerText = pokemon.forms[currentFormIndex].name;
         updatePokemonTypes(pokemon.forms[currentFormIndex].types);
       });
-cardImg.innerHTML = `
-    <div class="card-img">
-      <button class="prev-form">&lt;</button>
-      <img src="${pokemon.forms[currentFormIndex].image}" alt="pokemon">
-      <button class="next-form">&gt;</button>
-    </div>
-  `;
+	    
 	    pokemon.Image.src = pokemon.forms[currentFormIndex].image;
       updatePokemonTypes(pokemon.forms[currentFormIndex].types);
 
