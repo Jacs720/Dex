@@ -2647,22 +2647,22 @@
       types: ["Psychic"],
       forms: [
       {
-          name: "Deoxys (Normal Form)",
+          name: "Deoxys (Normal Forme)",
           image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/386.png",
           types: ["Psychic"],
         },
         {
-          name: "Deoxys (Attack Form)",
+          name: "Deoxys (Attack Forme)",
           image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/386_f2.png",
           types: ["Psychic"],
         },
       {
-          name: "Deoxys (Defense Form)",
+          name: "Deoxys (Defense Forme)",
           image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/386_f3.png",
           types: ["Psychic"],
         },
         {
-          name: "Deoxys (Speed Form)",
+          name: "Deoxys (Speed Forme)",
           image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/386_f4.png",
           types: ["Psychic"],
         },
@@ -3207,7 +3207,7 @@
           types: ["Steel", "Dragon"],
         },
         {
-          name: "Dialga (Origin Form)",
+          name: "Dialga (Origin Forme)",
           image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/483_f2.png",
           types: ["Steel", "Dragon"],
         },
@@ -3223,7 +3223,7 @@
           types: ["Water", "Dragon"],
         },
         {
-          name: "Palkia (Origin Form)",
+          name: "Palkia (Origin Forme)",
           image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/484_f2.png",
           types: ["Water", "Dragon"],
         },
@@ -3242,12 +3242,12 @@
       types: ["Ghost", "Dragon"],
       forms: [
       {
-          name: "Giratina (Altered Form)",
+          name: "Giratina (Altered Forme)",
           image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/487.png",
           types: ["Ghost", "Dragon"],
         },
         {
-          name: "Giratina (Origin Form)",
+          name: "Giratina (Origin Forme)",
           image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/487_f2.png",
           types: ["Ghost", "Dragon"],
         },
@@ -3274,12 +3274,12 @@
       types: ["Grass"],
       forms: [
       {
-          name: "Shaymin (Land Form)",
+          name: "Shaymin (Land Forme)",
           image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/492.png",
           types: ["Grass"],
         },
         {
-          name: "Shaymin (Sky Form)",
+          name: "Shaymin (Sky Forme)",
           image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/492_f2.png",
           types: ["Grass", "Flying"],
         },
@@ -3327,7 +3327,19 @@
     }, {
       id: 503,
       name: "Samurott",
-      types: ["Water"]
+      types: ["Water"],
+      forms: [
+      {
+          name: "Samurott",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/503.png",
+          types: ["Water"],
+        },
+        {
+          name: "Hisuian Samurott",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/503_f2.png",
+          types: ["Water", "Dark"],
+        },
+        ],
     }, {
       id: 504,
       name: "Patrat",
@@ -3439,7 +3451,19 @@
     }, {
       id: 531,
       name: "Audino",
-      types: ["Normal"]
+      types: ["Normal"],
+      forms: [
+      {
+          name: "Audino",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/531.png",
+          types: ["Normal"],
+        },
+        {
+          name: "Mega Audino",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/531_f2.png",
+          types: ["Normal", "Fairy"],
+        },
+        ],
     }, {
       id: 532,
       name: "Timburr",
@@ -3511,11 +3535,40 @@
     }, {
       id: 549,
       name: "Lilligant",
-      types: ["Grass"]
+      types: ["Grass"],
+      forms: [
+      {
+          name: "Lilligant",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/549.png",
+          types: ["Grass"],
+        },
+        {
+          name: "Hisuian Lilligant",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/549_f2.png",
+          types: ["Grass", "Fighting"],
+        },
+        ],
     }, {
       id: 550,
       name: "Basculin",
-      types: ["Water"]
+      types: ["Water"],
+      forms: [
+      {
+          name: "Basculin (Red-Striped)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/550.png",
+          types: ["Water"],
+        },
+       {
+          name: "Basculin (Blue-Striped)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/550_f2.png",
+          types: ["Water"],
+        },
+        {
+          name: "Basculin (White-Striped)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/550_f3.png",
+          types: ["Water"],
+        },
+        ],
     }, {
       id: 551,
       name: "Sandile",
@@ -3563,7 +3616,19 @@
     }, {
       id: 562,
       name: "Yamask",
-      types: ["Ghost"]
+      types: ["Ghost"],
+      forms: [
+      {
+          name: "Yamask",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/562.png",
+          types: ["Ghost"],
+        },
+        {
+          name: "Galarian Yamask",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/562_f2.png",
+          types: ["Ground", "Ghost"],
+        },
+        ],
     }, {
       id: 563,
       name: "Cofagrigus",
@@ -3591,15 +3656,51 @@
     }, {
       id: 569,
       name: "Garbodor",
-      types: ["Poison"]
+      types: ["Poison"],
+      forms: [
+      {
+          name: "Garbordor",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/569.png",
+          types: ["Poison"],
+        },
+        {
+          name: "Gigantamax Garbordor",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/569_f2.png",
+          types: ["Poison"],
+        },
+        ],
     }, {
       id: 570,
       name: "Zorua",
-      types: ["Dark"]
+      types: ["Dark"],
+      forms: [
+      {
+          name: "Zorua",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/570.png",
+          types: ["Dark"],
+        },
+        {
+          name: "Hisuian Zorua",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/570_f2.png",
+          types: ["Normal", "Ghost"],
+        },
+        ],
     }, {
       id: 571,
       name: "Zoroark",
-      types: ["Dark"]
+      types: ["Dark"],
+      forms: [
+      {
+          name: "Zoroark",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/571.png",
+          types: ["Dark"],
+        },
+        {
+          name: "Hisuian Zoroark",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/571_f2.png",
+          types: ["Normal", "Ghost"],
+        },
+        ],
     }, {
       id: 572,
       name: "Minccino",
@@ -3655,11 +3756,55 @@
     }, {
       id: 585,
       name: "Deerling",
-      types: ["Normal", "Grass"]
+      types: ["Normal", "Grass"],
+      forms: [
+      {
+          name: "Deerling (Spring Form)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/585.png",
+          types: ["Normal", "Grass"],
+        },
+        {
+          name: "Deerling (Summer Form)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/585_f2.png",
+          types: ["Normal", "Grass"],
+        },
+        {
+          name: "Deerling (Autumn Form)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/585_f3.png",
+          types: ["Normal", "Grass"],
+        },
+        {
+          name: "Deerling (Winter Form)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/585_f4.png",
+          types: ["Normal", "Grass"],
+        },
+        ],
     }, {
       id: 586,
       name: "Sawsbuck",
-      types: ["Normal", "Grass"]
+      types: ["Normal", "Grass"],
+      forms: [
+      {
+          name: "Sawsbuck (Spring Form)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/586.png",
+          types: ["Normal", "Grass"],
+        },
+        {
+          name: "Sawsbuck (Summer Form)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/586_f2.png",
+          types: ["Normal", "Grass"],
+        },
+        {
+          name: "Sawsbuck (Autumn Form)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/586_f3.png",
+          types: ["Normal", "Grass"],
+        },
+        {
+          name: "Sawsbuck (Winter Form)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/586_f4.png",
+          types: ["Normal", "Grass"],
+        },
+        ],
     }, {
       id: 587,
       name: "Emolga",
@@ -3683,11 +3828,35 @@
     }, {
       id: 592,
       name: "Frillish",
-      types: ["Water", "Ghost"]
+      types: ["Water", "Ghost"],
+      forms: [
+      {
+          name: "Frilish (Male)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/592.png",
+          types: ["Water", "Ghost"],
+        },
+        {
+          name: "Frillish (Female)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/592_f2.png",
+          types: ["Water", "Ghost"],
+        },
+        ],
     }, {
       id: 593,
       name: "Jellicent",
-      types: ["Water", "Ghost"]
+      types: ["Water", "Ghost"],
+      forms: [
+      {
+          name: "Jellicent (Male)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/592.png",
+          types: ["Water", "Ghost"],
+        },
+        {
+          name: "Jellicent (Female)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/592_f2.png",
+          types: ["Water", "Ghost"],
+        },
+        ],
     }, {
       id: 594,
       name: "Alomomola",
@@ -3787,7 +3956,19 @@
     }, {
       id: 618,
       name: "Stunfisk",
-      types: ["Ground", "Electric"]
+      types: ["Ground", "Electric"],
+      forms: [
+      {
+          name: "Stunfisk",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/618.png",
+          types: ["Ground", "Electric"],
+        },
+        {
+          name: "Galarian Stunfisk",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/618_f2.png",
+          types: ["Ground", "Steel"],
+        },
+        ],
     }, {
       id: 619,
       name: "Mienfoo",
@@ -3827,7 +4008,19 @@
     }, {
       id: 628,
       name: "Braviary",
-      types: ["Normal", "Flying"]
+      types: ["Normal", "Flying"],
+      forms: [
+      {
+          name: "Braviary",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/628.png",
+          types: ["Normal", "Flying"],
+        },
+        {
+          name: "Hisuian Braviary",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/628_f2.png",
+          types: ["Psychic", "Flying"],
+        },
+        ],
     }, {
       id: 629,
       name: "Vullaby",
@@ -3879,11 +4072,35 @@
     }, {
       id: 641,
       name: "Tornadus",
-      types: ["Flying"]
+      types: ["Flying"],
+      forms: [
+      {
+          name: "Tornadus (Incarnate Forme)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/641.png",
+          types: ["Flying"],
+        },
+        {
+          name: "Tornadus (Therian Forme)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/641_f2.png",
+          types: ["Flying"],
+        },
+        ],
     }, {
       id: 642,
       name: "Thundurus",
-      types: ["Electric", "Flying"]
+      types: ["Electric", "Flying"],
+      forms: [
+      {
+          name: "Thundurus (Incarnate Forme)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/642.png",
+          types: ["Electric", "Flying"],
+        },
+        {
+          name: "Thundurus (Therian Forme)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/642_f2.png",
+          types: ["Electric", "Flying"],
+        },
+        ],
     }, {
       id: 643,
       name: "Reshiram",
@@ -3895,7 +4112,19 @@
     }, {
       id: 645,
       name: "Landorus",
-      types: ["Ground", "Flying"]
+      types: ["Ground", "Flying"],
+      forms: [
+      {
+          name: "Landorus (Incarnate Forme)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/645.png",
+          types: ["Ground", "Flying"],
+        },
+        {
+          name: "Landorus (Therian Forme)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/645_f2.png",
+          types: ["Ground", "Flying"],
+        },
+        ],
     }, {
       id: 646,
       name: "Kyurem",
@@ -3903,11 +4132,35 @@
     }, {
       id: 647,
       name: "Keldeo",
-      types: ["Water", "Fighting"]
+      types: ["Water", "Fighting"],
+      forms: [
+      {
+          name: "Keldeon (Ordinary Form)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/647.png",
+          types: ["Water", "Fighting"],
+        },
+        {
+          name: "Keldeo (Resolute Forme)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/647_f2.png",
+          types: ["Water", "Fighting"],
+        },
+        ],
     }, {
       id: 648,
       name: "Meloetta",
-      types: ["Normal", "Psychic"]
+      types: ["Normal", "Psychic"],
+      forms: [
+      {
+          name: "Meloetta (Aria Forme)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/648.png",
+          types: ["Normal", "Psychic"],
+        },
+        {
+          name: "Meloetta (Pirouette Forme)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/648_f2.png",
+          types: ["Normal", "Fighting"],
+        },
+        ],
     }, {
       id: 649,
       name: "Genesect",
@@ -3947,7 +4200,19 @@
     }, {
       id: 658,
       name: "Greninja",
-      types: ["Water", "Dark"]
+      types: ["Water", "Dark"],
+      forms: [
+      {
+          name: "Greninja",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/658.png",
+          types: ["Water", "Dark"],
+        },
+        {
+          name: "Ash-Greninja",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/658_f2.png",
+          types: ["Water", "Dark"],
+        },
+        ],
     }, {
       id: 659,
       name: "Bunnelby",
@@ -3987,7 +4252,19 @@
     }, {
       id: 668,
       name: "Pyroar",
-      types: ["Fire", "Normal"]
+      types: ["Fire", "Normal"],
+      forms: [
+      {
+          name: "Pyroar (Male)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/668.png",
+          types: ["Fire", "Normal"],
+        },
+        {
+          name: "Pyroar (Female)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/668_f2.png",
+          types: ["Fire", "Normal"],
+        },
+        ],
     }, {
       id: 669,
       name: "Flabébé",
@@ -4027,7 +4304,19 @@
     }, {
       id: 678,
       name: "Meowstic",
-      types: ["Psychic"]
+      types: ["Psychic"],
+      forms: [
+      {
+          name: "Meowstic (Male)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/678.png",
+          types: ["Psychic"],
+        },
+        {
+          name: "Meowstic (Female)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/678_f2.png",
+          types: ["Psychic"],
+        },
+        ],
     }, {
       id: 679,
       name: "Honedge",
@@ -4039,7 +4328,19 @@
     }, {
       id: 681,
       name: "Aegislash",
-      types: ["Steel", "Ghost"]
+      types: ["Steel", "Ghost"],
+      forms: [
+      {
+          name: "Aegislash (Shield Forme)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/681.png",
+          types: ["Steel", "Ghost"],
+        },
+        {
+          name: "Aegislash (Sword Forme)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/681_f2.png",
+          types: ["Steel", "Ghost"],
+        },
+        ],
     }, {
       id: 682,
       name: "Spritzee",
@@ -4167,7 +4468,19 @@
     }, {
       id: 713,
       name: "Avalugg",
-      types: ["Ice"]
+      types: ["Ice"],
+      forms: [
+      {
+          name: "Avalugg",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/713.png",
+          types: ["Ice"],
+        },
+        {
+          name: "Hisuian Avalugg",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/713_f2.png",
+          types: ["Ice", "Rock"],
+        },
+        ],
     }, {
       id: 714,
       name: "Noibat",
@@ -4187,15 +4500,56 @@
     }, {
       id: 718,
       name: "Zygarde",
-      types: ["Dragon", "Ground"]
+      types: ["Dragon", "Ground"],
+      forms: [
+      {
+          name: "Zygarde (50% Forme)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/718.png",
+          types: ["Dragon", "Ground"],
+        },
+        {
+          name: "Zygarde (10% Forme)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/718_f2.png",
+          types: ["Dragon", "Ground"],
+        },
+        {
+          name: "Zygarde (Complete Forme)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/718_f3.png",
+          types: ["Dragon", "Ground"],
+        },
+        ],
     }, {
       id: 719,
       name: "Diancie",
-      types: ["Rock", "Fairy"]
+      types: ["Rock", "Fairy"],
+      forms: [
+      {
+          name: "Diancie",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/719.png",
+          types: ["Rock", "Fairy"],
+        },
+        {
+          name: "Mega Diancie",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/719_f2.png",
+          types: ["Rock", "Fairy"],
+        },
+        ],
     }, {
       id: 720,
       name: "Hoopa",
-      types: ["Psychic", "Ghost"]
+      types: ["Psychic", "Ghost"],
+      forms: [
+      {
+          name: "Hoopa (Confined)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/720.png",
+          types: ["Psychic", "Ghost"],
+        },
+        {
+          name: "Hoopa (Unbound)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/720_f2.png",
+          types: ["Psychic", "Ghot"],
+        },
+        ],
     }, {
       id: 721,
       name: "Volcanion",
@@ -4211,7 +4565,19 @@
     }, {
       id: 724,
       name: "Decidueye",
-      types: ["Grass", "Ghost"]
+      types: ["Grass", "Ghost"],
+      forms: [
+      {
+          name: "Decidueye",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/724.png",
+          types: ["Grass", "Ghost"],
+        },
+        {
+          name: "Hisuian Decidueye",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/724_f2.png",
+          types: ["Grass", "Fighting"],
+        },
+        ],
     }, {
       id: 725,
       name: "Litten",
@@ -4279,7 +4645,29 @@
     }, {
       id: 741,
       name: "Oricorio",
-      types: ["Fire", "Flying"]
+      types: ["Fire", "Flying"],
+      forms: [
+      {
+          name: "Oricorio (Baile Style)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/741.png",
+          types: ["Fire", "Flying"],
+        },
+        {
+          name: "Oricorio (Pom-Pom Style)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/741_f2.png",
+          types: ["Electric", "Flying"],
+        },
+        {
+          name: "Oricorio (Pa´u Style)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/741_f3.png",
+          types: ["Psychic", "Flying"],
+        },
+        {
+          name: "Oricorio (Sensu Style)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/741_f4.png",
+          types: ["Ghost", "Flying"],
+        },
+        ],
     }, {
       id: 742,
       name: "Cutiefly",
@@ -4295,11 +4683,40 @@
     }, {
       id: 745,
       name: "Lycanroc",
-      types: ["Rock"]
+      types: ["Rock"],
+      forms: [
+      {
+          name: "Lycanroc (Midday Form)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/745.png",
+          types: ["Rock"],
+        },
+        {
+          name: "Lycanroc (Midnight Form)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/745_f2.png",
+          types: ["Rock"],
+        },
+        {
+          name: "Lycanroc (Dusk Form)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/745_f3.png",
+          types: ["Rock"],
+        },
+        ],
     }, {
       id: 746,
       name: "Wishiwashi",
-      types: ["Water"]
+      types: ["Water"],
+      forms: [
+      {
+          name: "Wishiwashi (Solo Form)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/746.png",
+          types: ["Water"],
+        },
+        {
+          name: "Wishiwashi (School Form)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/746_f2.png",
+          types: ["Water"],
+        },
+        ],
     }, {
       id: 747,
       name: "Mareanie",
@@ -4411,7 +4828,19 @@
     }, {
       id: 774,
       name: "Minior",
-      types: ["Rock", "Flying"]
+      types: ["Rock", "Flying"],
+      forms: [
+      {
+          name: "Minior (Meteor Form)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/774.png",
+          types: ["Rock", "Flying"],
+        },
+        {
+          name: "Minior (Red Core)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/774_f2.png",
+          types: ["Rock", "Flying"],
+        },
+        ],
     }, {
       id: 775,
       name: "Komala",
@@ -4515,7 +4944,29 @@
     }, {
       id: 800,
       name: "Necrozma",
-      types: ["Psychic"]
+      types: ["Psychic"],
+      forms: [
+      {
+          name: "Necrozma",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/800.png",
+          types: ["Psychic"],
+        },
+        {
+          name: "Necrozma (Dusk Mane)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/800_f2.png",
+          types: ["Psychic", "Steel"],
+        },
+        {
+          name: "Necrozma (Dawn Wings)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/800_f3.png",
+          types: ["Psychic", "Ghost"],
+        },
+        {
+          name: "Ultra Necrozma",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/800_f4.png",
+          types: ["Psychic", "Dragon"],
+        },
+        ],
     }, {
       id: 801,
       name: "Magearna",
@@ -4551,7 +5002,19 @@
     }, {
       id: 809,
       name: "Melmetal",
-      types: ["Steel"]
+      types: ["Steel"],
+      forms: [
+      {
+          name: "Melmetal",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/809.png",
+          types: ["Steel"],
+        },
+        {
+          name: "Gigantamax Melmetal",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/809_f2.png",
+          types: ["Steel"],
+        },
+        ],
     }, {
       id: 810,
       name: "Grookey",
@@ -4563,7 +5026,19 @@
     }, {
       id: 812,
       name: "Rillaboom",
-      types: ["Grass"]
+      types: ["Grass"],
+      forms: [
+      {
+          name: "Rillaboom",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/812.png",
+          types: ["Grass"],
+        },
+        {
+          name: "Gigantamax Rilaboom",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/812_f2.png",
+          types: ["Grass"],
+        },
+        ],
     }, {
       id: 813,
       name: "Scorbunny",
