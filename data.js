@@ -5050,7 +5050,19 @@
     }, {
       id: 815,
       name: "Cinderace",
-      types: ["Fire"]
+      types: ["Fire"],
+      forms: [
+      {
+          name: "Cinderace",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/815.png",
+          types: ["Fire"],
+        },
+        {
+          name: "Gigantamax Cinderace",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/815_f2.png",
+          types: ["Fire"],
+        },
+        ],
     }, {
       id: 816,
       name: "Sobble",
@@ -5062,7 +5074,19 @@
     }, {
       id: 818,
       name: "Inteleon",
-      types: ["Water"]
+      types: ["Water"],
+      forms: [
+      {
+          name: "Inteleon",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/818.png",
+          types: ["Water"],
+        },
+        {
+          name: "Gigantamax Inteleon",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/818_f2.png",
+          types: ["Water"],
+        },
+        ],
     }, {
       id: 819,
       name: "Skwovet",
@@ -5082,7 +5106,19 @@
     }, {
       id: 823,
       name: "Corviknight",
-      types: ["Flying", "Steel"]
+      types: ["Flying", "Steel"],
+      forms: [
+      {
+          name: "Corviknight",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/823.png",
+          types: ["Flying", "Steel"],
+        },
+        {
+          name: "Gigantamax Corviknight",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/823_f2.png",
+          types: ["Flying", "Steel"],
+        },
+        ],
     }, {
       id: 824,
       name: "Blipbug",
@@ -5094,7 +5130,19 @@
     }, {
       id: 826,
       name: "Orbeetle",
-      types: ["Bug", "Psychic"]
+      types: ["Bug", "Psychic"],
+      forms: [
+      {
+          name: "Orbeetle",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/826.png",
+          types: ["Bug", "Psychic"],
+        },
+        {
+          name: "Gigantamax Orbeetle",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/826_f2.png",
+          types: ["Bug", "Psychic"],
+        },
+        ],
     }, {
       id: 827,
       name: "Nickit",
@@ -5126,7 +5174,19 @@
     }, {
       id: 834,
       name: "Drednaw",
-      types: ["Water", "Rock"]
+      types: ["Water", "Rock"],
+      forms: [
+      {
+          name: "Drednaw",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/834.png",
+          types: ["Water", "Rock"],
+        },
+        {
+          name: "Gigantamax Drednaw",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/834_f2.png",
+          types: ["Water", "Rock"],
+        },
+        ],
     }, {
       id: 835,
       name: "Yamper",
@@ -5146,7 +5206,19 @@
     }, {
       id: 839,
       name: "Coalossal",
-      types: ["Rock", "Fire"]
+      types: ["Rock", "Fire"],
+      forms: [
+      {
+          name: "Coalossal",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/839.png",
+          types: ["Rock", "Fire"],
+        },
+        {
+          name: "Gigantamax Coalossal",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/839_f2.png",
+          types: ["Rock", "Fire"],
+        },
+        ],
     }, {
       id: 840,
       name: "Applin",
@@ -5154,11 +5226,35 @@
     }, {
       id: 841,
       name: "Flapple",
-      types: ["Grass", "Dragon"]
+      types: ["Grass", "Dragon"],
+      forms: [
+      {
+          name: "Flapple",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/841.png",
+          types: ["Grass", "Dragon"],
+        },
+        {
+          name: "Gigantamax Flapple",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/841_f2.png",
+          types: ["Grass", "Dragon"],
+        },
+        ],
     }, {
       id: 842,
       name: "Appletun",
-      types: ["Grass", "Dragon"]
+      types: ["Grass", "Dragon"],
+      forms: [
+      {
+          name: "Appletun",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/842.png",
+          types: ["Grass", "Dragon"],
+        },
+        {
+          name: "Gigantamax Appletun",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/842_f2.png",
+          types: ["Grass", "Dragon"],
+        },
+        ],
     }, {
       id: 843,
       name: "Silicobra",
@@ -5166,7 +5262,19 @@
     }, {
       id: 844,
       name: "Sandaconda",
-      types: ["Ground"]
+      types: ["Ground"],
+      forms: [
+      {
+          name: "Sandacobra",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/844.png",
+          types: ["Ground"],
+        },
+        {
+          name: "Gigantamax Sandacobra",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/844_f2.png",
+          types: ["Ground"],
+        },
+        ],
     }, {
       id: 845,
       name: "Cramorant",
@@ -5186,7 +5294,24 @@
     }, {
       id: 849,
       name: "Toxtricity",
-      types: ["Electric", "Poison"]
+      types: ["Electric", "Poison"],
+      forms: [
+      {
+          name: "Toxtricity (Low Key Form)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/849.png",
+          types: ["Electric", "Poison"],
+        },
+        {
+          name: "Toxtricity (Amped Form)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/849_f2.png",
+          types: ["Electric", "Poison"],
+        },
+         {
+          name: "Gigantamax Toxtricity",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/849_f3.png",
+          types: ["Electric", "Poison"],
+        },
+        ],
     }, {
       id: 850,
       name: "Sizzlipede",
@@ -5194,7 +5319,19 @@
     }, {
       id: 851,
       name: "Centiskorch",
-      types: ["Fire", "Bug"]
+      types: ["Fire", "Bug"],
+      forms: [
+      {
+          name: "Sandacobra",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/851.png",
+          types: ["Fire", "Bug"],
+        },
+        {
+          name: "Gigantamax Centiskorch",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/851_f2.png",
+          types: ["Fire", "Bug"],
+        },
+        ],
     }, {
       id: 852,
       name: "Clobbopus",
@@ -5222,7 +5359,19 @@
     }, {
       id: 858,
       name: "Hatterene",
-      types: ["Psychic", "Fairy"]
+      types: ["Psychic", "Fairy"],
+      forms: [
+      {
+          name: "Hatterene",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/858.png",
+          types: ["Psychic", "Fairy"],
+        },
+        {
+          name: "Gigantamax Hatterene",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/858_f2.png",
+          types: ["Psychic", "Fairy"],
+        },
+        ],
     }, {
       id: 859,
       name: "Impidimp",
@@ -5234,7 +5383,19 @@
     }, {
       id: 861,
       name: "Grimmsnarl",
-      types: ["Dark", "Fairy"]
+      types: ["Dark", "Fairy"],
+      forms: [
+      {
+          name: "Grimmsnarl",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/861.png",
+          types: ["Dark", "Fairy"],
+        },
+        {
+          name: "Gigantamax Grimmsnarl",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/861_f2.png",
+          types: ["Dark", "Fairy"],
+        },
+        ],
     }, {
       id: 862,
       name: "Obstagoon",
@@ -5266,7 +5427,19 @@
     }, {
       id: 869,
       name: "Alcremie",
-      types: ["Fairy"]
+      types: ["Fairy"],
+      forms: [
+      {
+          name: "Alcremie (Vanilla Cream)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/869.png",
+          types: ["Fairy"],
+        },
+        {
+          name: "Gigantamax Alcremie",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/869_f2.png",
+          types: ["Fairy"],
+        },
+        ],
     }, {
       id: 870,
       name: "Falinks",
@@ -5294,7 +5467,19 @@
     }, {
       id: 876,
       name: "Indeedee",
-      types: ["Psychic", "Normal"]
+      types: ["Psychic", "Normal"],
+      forms: [
+      {
+          name: "Hatterene",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/858.png",
+          types: ["Psychic", "Fairy"],
+        },
+        {
+          name: "Gigantamax Hatterene",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/858_f2.png",
+          types: ["Psychic", "Fairy"],
+        },
+        ],
     }, {
       id: 877,
       name: "Morpeko",
@@ -5306,7 +5491,19 @@
     }, {
       id: 879,
       name: "Copperajah",
-      types: ["Steel"]
+      types: ["Steel"],
+      forms: [
+      {
+          name: "Copperajah",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/879.png",
+          types: ["Steel"],
+        },
+        {
+          name: "Gigantamax Copperajah",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/879_f2.png",
+          types: ["Steel"],
+        },
+        ],
     }, {
       id: 880,
       name: "Dracozolt",
@@ -5326,7 +5523,19 @@
     }, {
       id: 884,
       name: "Duraludon",
-      types: ["Steel", "Dragon"]
+      types: ["Steel", "Dragon"],
+      forms: [
+      {
+          name: "Duraludon",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/884.png",
+          types: ["Steel", "Dragon"],
+        },
+        {
+          name: "Gigantamax Duraludon",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/884_f2.png",
+          types: ["Steel", "Dragon"],
+        },
+        ],
     }, {
       id: 885,
       name: "Dreepy",
@@ -5342,15 +5551,51 @@
     }, {
       id: 888,
       name: "Zacian",
-      types: ["Fairy"]
+      types: ["Fairy"],
+      forms: [
+      {
+          name: "Zacian (Hero of Many Battles)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/888.png",
+          types: ["Fairy"],
+        },
+        {
+          name: "Zacian (Crowned Sword)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/888_f2.png",
+          types: ["Fairy", "Steel"],
+        },
+        ],
     }, {
       id: 889,
       name: "Zamazenta",
-      types: ["Fighting"]
+      types: ["Fighting"],
+      forms: [
+      {
+          name: "Zamazenta (Hero of Many Battles)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/889.png",
+          types: ["Fighting"],
+        },
+        {
+          name: "Zamazenta (Crowned Sword)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/889_f2.png",
+          types: ["Fighting", "Steel"],
+        },
+        ],
     }, {
       id: 890,
       name: "Eternatus",
-      types: ["Poison", "Dragon"]
+      types: ["Poison", "Dragon"],
+      forms: [
+      {
+          name: "Eternatus",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/890.png",
+          types: ["Poison", "Dragon"],
+        },
+        {
+          name: "Eternamax Eternatus",
+          image: "https://archives.bulbagarden.net/media/upload/3/38/HOME0890E.png",
+          types: ["Poison", "Dragon"],
+        },
+        ],
     }, {
       id: 891,
       name: "Kubfu",
@@ -5358,7 +5603,29 @@
     }, {
       id: 892,
       name: "Urshifu",
-      types: ["Fighting", "Dark"]
+      types: ["Fighting", "Dark"],
+      forms: [
+      {
+          name: "Urshifu (Single Strike Style)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/892.png",
+          types: ["Fighting", "Dark"],
+        },
+        {
+          name: "Urshifu (Single Strike Style)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/892_f2.png",
+          types: ["Fighting", "Water"],
+        },
+      {
+          name: "Gigantamax Urshifu (Single Strike Style)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/892_f3.png",
+          types: ["Fighting", "Dark"],
+        },
+        {
+          name: "Gigantamax Urshifu (Single Strike Style)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/892_f4.png",
+          types: ["Fighting", "Water"],
+        },
+        ],
     }, {
       id: 893,
       name: "Zarude",
@@ -5382,7 +5649,24 @@
     }, {
       id: 898,
       name: "Calyrex",
-      types: ["Psychic", "Grass"]
+      types: ["Psychic", "Grass"],
+      forms: [
+      {
+          name: "Calyrex",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/898.png",
+          types: ["Psychic", "Grass"],
+        },
+        {
+          name: "Calyrex (Ice Rider)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/898_f2.png",
+          types: ["Psychic", "Ice"],
+        },
+        {
+          name: "Calyrex (Shadow Rider)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/898_f3.png",
+          types: ["Psychic", "Ghost"],
+        },
+        ],
     }, {
       id: 899,
       name: "Wyrdeer",
@@ -5398,7 +5682,19 @@
     }, {
       id: 902,
       name: "Basculegion",
-      types: ["Water", "Ghost"]
+      types: ["Water", "Ghost"],
+      forms: [
+      {
+          name: "Basculegion (Male)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/892.png",
+          types: ["Water", "Ghost"],
+        },
+        {
+          name: "Basculegion (Female)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/892_f2.png",
+          types: ["Water", "Ghost"],
+        },
+        ],
     }, {
       id: 903,
       name: "Sneasler",
@@ -5454,7 +5750,19 @@
     }, {
       id: 916,
       name: "Oinkologne",
-      types: ["Normal"]
+      types: ["Normal"],
+      forms: [
+      {
+          name: "Oinkologne (Male)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/916.png",
+          types: ["Normal"],
+        },
+        {
+          name: "Oinkologne (Female)",
+          image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/916_f2.png",
+          types: ["Normal"],
+        },
+        ],
     }, {
       id: 917,
       name: "Tarountula",
