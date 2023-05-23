@@ -1,8 +1,8 @@
 import { pokemons } from './data.js';
-import {typeImages} from './data.js';
+import { typeImages } from './data.js';
 
 document.addEventListener("DOMContentLoaded", function () {
-	 const container = document.querySelector("#container");
+  const container = document.querySelector("#container");
   pokemons.forEach(pokemon => {
     const card = document.createElement("a");
     card.href = `pokemon.html?pokemonId=${pokemon.id}`; // Pass Pokémon ID as query parameter
@@ -104,8 +104,8 @@ document.addEventListener("DOMContentLoaded", function () {
         pokemonName.innerText = pokemon.forms[currentFormIndex].name;
         updatePokemonTypes(pokemon.forms[currentFormIndex].types);
       });
-	    
-	    pokemon.Image.src = pokemon.forms[currentFormIndex].image;
+
+      pokemon.Image.src = pokemon.forms[currentFormIndex].image;
       updatePokemonTypes(pokemon.forms[currentFormIndex].types);
 
       pokemonForms.appendChild(prevFormButton);

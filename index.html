@@ -1,64 +1,61 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Pokédex</title>
-	    <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
-	    <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style-home.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
-	    <link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Saira:wght@500&family=Ubuntu&display=swap" rel="stylesheet">
-    </head>
-    <body>    
-	    <header>
-	        <div class="buscar" onclick="document.getElementById('search').focus();">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                    <path d="M11.742 10.344a6.5 6.5 0 10-1.397 1.398h.001c.03.03.062.058.098.083l3.85 3.85a1 1 0 001.415-1.414l-3.85-3.85a1.007 1.007 0 01-.082-.099v-.001zm-5.242-.844a4.5 4.5 0 110-9 4.5 4.5 0 010 9z"/>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style-home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira:wght@500&family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="buscar" onclick="document.getElementById('search').focus();">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+                viewBox="0 0 16 16">
+                <path
+                    d="M11.742 10.344a6.5 6.5 0 10-1.397 1.398h.001c.03.03.062.058.098.083l3.85 3.85a1 1 0 001.415-1.414l-3.85-3.85a1.007 1.007 0 01-.082-.099v-.001zm-5.242-.844a4.5 4.5 0 110-9 4.5 4.5 0 010 9z" />
+            </svg>
+            <input type="text" id="search" placeholder="Buscar">
+        </div>
+        <div class="container-filter container">
+            <div class="icon-filter">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="icon">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M10.5 6h9.75M10.5 6a1.5 1.5 0 11-3 0m3 0a1.5 1.5 0 10-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-9.75 0h9.75" />
                 </svg>
-                <input type="text" id="search" placeholder="Buscar">
+                <span>Filtrar</span>
             </div>
-            <div class="container-filter container">
-                <div class="icon-filter">
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke-width="1.5"
-                        stroke="currentColor"
-                        class="icon"
-                    >
-                        <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M10.5 6h9.75M10.5 6a1.5 1.5 0 11-3 0m3 0a1.5 1.5 0 10-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-9.75 0h9.75"
-                        />
-                    </svg>
-                    <span>Filtrar</span>
-			    </div>
-		    </div>
-        </header>
-        
-        <main>
-            <div id="container"></div>
-            
-        </main>
-	</body>
-	<footer>
-		  <ul>
-		    <li>This project is not affiliated with The Pokémon Company. All rights reserved to The Pokémon Company, Nintendo, Game Freak and Creatures.</li>
-		    <li>Some assets were obtained from Bulbapedia.</li>
-		  </ul>
-	</footer>
-    </footer>
-    <script src="data.js"></script>
-	<script type="module" src="index.js"></script>
+        </div>
+    </header>
+
+    <main>
+        <div id="container"></div>
+
+    </main>
+</body>
+<footer>
+    <ul>
+        <li>This project is not affiliated with The Pokémon Company. All rights reserved to The Pokémon Company,
+            Nintendo, Game Freak and Creatures.</li>
+        <li>Some assets were obtained from Bulbapedia.</li>
+    </ul>
+</footer>
+</footer>
+<script src="data.js"></script>
+<script type="module" src="index.js"></script>
+
 </html>
