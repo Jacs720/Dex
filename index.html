@@ -22,14 +22,12 @@
 
 <body>
     <header>
-        <div class="buscar" onclick="document.getElementById('search').focus();">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
-                viewBox="0 0 16 16">
-                <path
-                    d="M11.742 10.344a6.5 6.5 0 10-1.397 1.398h.001c.03.03.062.058.098.083l3.85 3.85a1 1 0 001.415-1.414l-3.85-3.85a1.007 1.007 0 01-.082-.099v-.001zm-5.242-.844a4.5 4.5 0 110-9 4.5 4.5 0 010 9z" />
-            </svg>
-            <input type="text" id="search" placeholder="Buscar">
-        </div>
+        <form action="" class="search-bar">
+	<input type="search" name="search" pattern=".*\S.*" required>
+	<button class="search-btn" type=submit onclick="buscar()">Buscar</button>
+		<span>Search</span>
+	</button>
+</form>
         <div class="container-filter container">
             <div class="icon-filter">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
