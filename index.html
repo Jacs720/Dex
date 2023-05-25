@@ -40,6 +40,35 @@
                 <span>Filtrar</span>
             </div>
         </div>
+        <script>
+        // Obtener los elementos relevantes del DOM
+        const searchInput = document.getElementById('search');
+        const filterButton = document.querySelector('.icon-filter');
+        const cards = document.getElementsByClassName('card');
+
+        // Agregar un evento de escucha al campo de búsqueda
+        searchInput.addEventListener('input', filterCards);
+
+        // Agregar un evento de escucha al botón de filtro
+        filterButton.addEventListener('click', filterCards);
+
+        // Función para filtrar los cards según el criterio de búsqueda y filtro
+        function filterCards() {
+            const searchTerm = searchInput.value.toLowerCase();
+
+            for (let i = 0; i < cards.length; i++) {
+                const card = cards[i];
+                const title = card.querySelector('.card-title').textContent.toLowerCase();
+                const type = card.getAttribute('data-type').toLowerCase();
+
+                if (title.includes(searchTerm) || type.includes(searchTerm)) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            }
+        }
+        </script>
     </header>
 
     <main>
