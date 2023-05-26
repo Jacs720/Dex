@@ -24,7 +24,6 @@
   --color-primary-hover: #83c5be;
 	font-size: calc(16px + (24 - 16)*(100vw - 320px)/(1920 - 320));
 }
-}
 
 .water {
   background-color: var(--color-water);
