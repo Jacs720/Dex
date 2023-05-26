@@ -38,8 +38,24 @@
                 <span>Filtrar</span>
             </div>
         </div>
-        <script>
-	document.addEventListener('DOMContentLoaded', function() {
+    </header>
+
+    <main>
+        <div id="container"></div>
+
+    </main>
+</body>
+<footer>
+    <ul>
+        <li>This project is not affiliated with The Pokémon Company. All rights reserved to The Pokémon Company,
+            Nintendo, Game Freak and Creatures.</li>
+        <li>Some assets were obtained from Bulbapedia.</li>
+    </ul>
+</footer>
+</footer>
+<script src="data.js"></script>
+<script type="module" src="index.js"></script>
+<script>
         // Obtener los elementos relevantes del DOM
         const searchInput = document.getElementById('search');
         const filterButton = document.querySelector('.icon-filter');
@@ -67,24 +83,5 @@
                 }
             }
         }
-	});
-        </script>
-    </header>
-
-    <main>
-        <div id="container"></div>
-
-    </main>
-</body>
-<footer>
-    <ul>
-        <li>This project is not affiliated with The Pokémon Company. All rights reserved to The Pokémon Company,
-            Nintendo, Game Freak and Creatures.</li>
-        <li>Some assets were obtained from Bulbapedia.</li>
-    </ul>
-</footer>
-</footer>
-<script src="data.js"></script>
-<script type="module" src="index.js"></script>
-
+   </script>
 </html>
