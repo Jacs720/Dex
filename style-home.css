@@ -123,6 +123,7 @@ body {
     overflow-x: auto;
     padding: 0 1.625em;
     box-sizing: border-box;
+	background-attachment: fixed;
 }
 .search-bar input,
 .search-btn, 
@@ -253,6 +254,7 @@ body {
     overflow-x: auto;
     padding: 0 1.625em;
     box-sizing: border-box;
+		background-attachment: fixed;
 	}
 	.search-bar input {
 		box-shadow: 0 0 0 0.4em #f1f1f1 inset;
