@@ -113,7 +113,16 @@ body, input {
 	color: #171717;
 }
 body {
-	background: #f1f1f1;
+	display: block;
+    background-color: #d2bbeb;
+    background-image: url(https://polymer-pokedex.firebaseapp.com/images/page-pokemons-detail-background.png), linear-gradient(#d2bbeb, #8a97ed);
+    animation: 3s linear infinite animate-background;
+    color: #ffffff;
+    text-align: center;
+    height: 100vh;
+    overflow-x: auto;
+    padding: 0 1.625em;
+    box-sizing: border-box;
 }
 .search-bar input,
 .search-btn, 
